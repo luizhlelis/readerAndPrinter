@@ -1,0 +1,4 @@
+
+* O sistema é formado por duas threads: leitor e impressora. As duas threads executam em um loop infinito. A thread leitor lê números do teclado e armazena em um buffer de 5 posições, espera o buffer esvaziar completamente e repete as operações. A thread impressora espera até que o buffer esteja cheio, calcula a média dos números e imprime o valor.
+
+* O repositório contém 3 arquivos (makefile, readerAndPrinter.cpp, readme). O algoritmo estáexplicitado em "readerAndPrinter.cpp".
